@@ -13,6 +13,7 @@ public class UserController {
 public String details(Model model ){
 
     User user = new User("Juan Carlos", "Martínez");
+    user.setEmail("correo@hotmail.com");
     model.addAttribute("title", "Hola Mundo Spring Boot");
     model.addAttribute("user", user);
    
